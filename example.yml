@@ -11,3 +11,16 @@ name: Example_Application
 version: 1.0.0
 description: This is a practical example of a YAML configuration file for an application. It includes database connection details and application metadata.
 license: MIT
+
+logging:
+  level: INFO
+  file: app.log
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+cache:
+  enabled: true
+  type: redis
+  host: localhost
+  port: 6379
+  ttl: 3600
+
