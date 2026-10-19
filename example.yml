@@ -1,0 +1,13 @@
+---
+# Practical example YAML configuration file
+database:
+  host: localhost
+  port: 5432
+  username: user
+  password: pass
+  name: my_database
+
+name: Example_Application
+version: 1.0.0
+description: This is a practical example of a YAML configuration file for an application. It includes database connection details and application metadata.
+license: MIT
